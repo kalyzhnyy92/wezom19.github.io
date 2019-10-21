@@ -1,0 +1,79 @@
+@media screen and (max-width: 1200px) {
+  .footer__wrapper{
+    padding: 0;
+    padding: 35px 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .section__wrapper{
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .section{
+    background-image: none;
+  }
+}
+@media screen and (max-width: 584px){
+  .section__title{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .nav-link{
+    font-size: 10px;
+  }
+  .main__title,
+  .section__title{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 467px){
+  .section__title{
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 449px){
+  .main__title{
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 434px) {
+  .footer__social{
+    padding-bottom: 20px;
+  }
+  .main__link,
+  .main__front,
+  .main__text,
+  .main__place,
+  .section__link,
+  .section__sentence,
+  .section__suptext,
+  .section__word,
+  .section__label,
+  .section__button{
+    font-size: 12px;
+  }
+  .main__price{
+    font-size: 14px;
+  }
+  .section__title{
+    font-size: 20px;
+  }
+  .section__subtext{
+    font-size: 10px;
+  }
+  .section__suptitle{
+    font-size: 20px;
+  }
+  .nav-item{
+    margin-left: 10px;
+  }
+  .nav-link{
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 318px) {
+  .section__title {
+    font-size: 16px;
+  }
+}
