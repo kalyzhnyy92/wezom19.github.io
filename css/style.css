@@ -120,7 +120,7 @@ body {
   height: 242px;
   object-fit: cover;
 }
-.card__front{
+.card-front{
   padding: 5px 15px;
   background: #ffc600;
   position: absolute;
@@ -131,7 +131,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
-.card__front:before{ 
+.card-front:before{ 
   content: '';
   position: absolute;
   left: 0;
@@ -184,7 +184,7 @@ body {
   padding: 15px 23px;
   position: relative;
 }
-.card__place{
+.card-place{
   font-size: 14px;
   color: #48494a;
   letter-spacing: 0.5px;
@@ -192,7 +192,7 @@ body {
   height: 18px;
   margin-bottom: 15px;
 }
-.card__metro{
+.card-metro{
   position: absolute;
   top: 14px;
   right: 15px;
@@ -200,7 +200,7 @@ body {
 .card__svg:hover{
   fill: #848a92;
 }
-.card__price{
+.card-price{
   font-size: 18px;
   color: #161617;
   padding: 5px 15px;
