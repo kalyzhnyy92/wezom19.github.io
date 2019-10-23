@@ -241,7 +241,7 @@ body {
   color: #fff;
   transition: box-shadow linear 0.3s;
 }
-.wrapper__color{
+.aside{
   background-color: #fff;
   max-width: 454px;
   height: auto;
@@ -249,15 +249,15 @@ body {
   position: relative;
   box-shadow: 0 5px 4.6px 0.4px rgba(23, 24, 25, 0.05);
 }
-.wrapper__color:hover{
+.aside:hover{
   box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.50);
   transition: box-shadow linear 0.3s;
 }
-.wrapper__photo{
+.aside__photo{
   position: relative;
   height: 248px;
 }
-.wrapper__photo:before{
+.aside__photo:before{
   position: absolute;
   left: 0;
   right: 0;
@@ -268,15 +268,15 @@ body {
   height: 100%;
   background: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
 }
-.wrapper__picture{
+.aside__picture{
   height: 248px;
   object-fit: cover;
 }
-.wrapper__kvartira{
+.aside__kvartira{
   height: 248px;
   object-fit: cover;
 }
-.wrapper__sentence{
+.aside__sentence{
   font-size: 16px;
   color: #fff;
   font-weight: bold;
@@ -285,7 +285,7 @@ body {
   bottom: 20px;
   left: 20px;
 }
-.wrapper__suptext{
+.aside__suptext{
   font-size: 14px;
   color: #48494a;
   line-height: 20px;
@@ -293,41 +293,41 @@ body {
   padding: 24px 24px 0 20px;
   overflow: hidden;
 }
-.wrapper__subtext{
+.aside__subtext{
   font-size: 12px;
   color: #80868e;
   padding: 20px 20px 30px;
 }
-.wrapper__content{
+.content{
   background: #f1f1f1;
   width: 100%;
 }
-.wrapper__subscription{
+.content__subscription{
   max-width: 394px;
   height: 597px;
   background: #f1f1f1;
   margin: 0 auto;
 }
-.wrapper__email{
+.content__email{
   padding-top: 115px;
 }
-.wrapper__suptitle{
+.content__suptitle{
   color: #48494a;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-.wrapper__word{
+.content__word{
   color: #48494a;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 45px;
 }
-.wrapper__label{
+.content__label{
   color: #48494a;
   font-size: 14px;
 }
-.wrapper__mail{
+.content__mail{
   background-color: #fff;
   box-shadow: 0 5px 5px 0.5px rgba(23, 24, 25, 0.05);
   width: 100%;
@@ -339,7 +339,7 @@ body {
   margin-top: 15px;
   margin-bottom: 30px;
 }
-.wrapper__button{
+.content__button{
   color: #a2a2a2;
   background-color: #ff0000;
   font-size: 14px;
@@ -351,37 +351,37 @@ body {
   cursor: pointer;
   width: 100%;
 }
-.wrapper__button:hover{
+.content__button:hover{
   box-shadow: 0 13px 22px 2px rgba(250, 25, 25, 0.45);
   text-decoration: none;
   color: #fff;
   transition: box-shadow linear 0.3s;
 }
-.wrapper__subscribe{
+.content__subscribe{
   color: #fff;
   text-decoration: none;
 }
-.wrapper__subscribe:hover{
+.content__subscribe:hover{
   text-decoration: none;
   color: #fff;
 }
-.footer__wrapper{
+.preview{
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 38px;
   padding-bottom: 24px;
 }
-.footer__title{
+.social__title{
   color: #80868e;
   font-size: 16px;
   margin: 0;
   margin-bottom: 20px
 }
-.footer__icon{
+.social__icon{
   display: inline-flex;
   width: 170px;
 }
-.footer__icon--facebook{
+.social__icon--facebook{
   fill: #13347f;
   fill-opacity: 0;
   stroke: #ffd200;
@@ -389,11 +389,11 @@ body {
   stroke-width: 2px;
   fill-rule: evenodd;
 }
-.footer__icon--facebook:hover{
+.social__icon--facebook:hover{
   stroke: red;
   transition: all 0.5s ease-out;
 }
-.footer__icon--twitter{
+.social__icon--twitter{
   fill: #13347f;
   fill-opacity: 0;
   stroke: #ffd200;
@@ -401,11 +401,11 @@ body {
   stroke-width: 2px;
   fill-rule: evenodd;
 }
-.footer__icon--twitter:hover{
+.social__icon--twitter:hover{
   stroke: red;
   transition: all 0.5s ease-out;
 }
-.footer__icon--youtube{
+.social__icon--youtube{
   fill: #13347f;
   fill-opacity: 0;
   stroke: #ffd200;
@@ -413,36 +413,36 @@ body {
   stroke-width: 2px;
   fill-rule: evenodd;
 }
-.footer__icon--youtube:hover{
+.social__icon--youtube:hover{
   stroke: red;
   transition: all 0.5s ease-out;
 }
-.footer__icon--instagram{
+.social__icon--instagram{
   fill: #ffd200;
   fill-rule: evenodd;
 }
-.footer__icon--instagram:hover{
+.social__icon--instagram:hover{
   fill: red;
   transition: all 0.5s ease-out;
 }
-.footer__wezom{
+.developer{
   display: inline-table;
 }
-.footer__img{
+.developer__wezom{
   margin-right: 10px;
 }
-.footer__img:hover{
+.developer__wezom:hover{
   box-shadow: 0 4px 12px 3px rgba(250, 25, 25, 0.45);
   transition: box-shadow linear 0.3s;
 }
-.footer__suptext{
+.developer__suptext{
   vertical-align: middle;
 }
-.footer__text{
+.developer__text{
   color: #80868e;
   font-size: 12px;
 }
-.footer__service{
+.developer__service{
   color: #000;
   font-weight: bold;
   font-size: 14px;
