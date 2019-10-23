@@ -1,11 +1,11 @@
 @media screen and (max-width: 1200px) {
-  .footer__wrapper{
+  .preview{
     padding: 0;
     padding: 35px 0;
   }
 }
 @media screen and (max-width: 1199px) {
-  .section__wrapper{
+  .wrapper{
     padding-right: 25px;
     padding-left: 25px;
   }
@@ -14,7 +14,7 @@
   }
 }
 @media screen and (max-width: 584px){
-  .section__title{
+  .wrapper__title{
     font-size: 28px;
   }
 }
@@ -22,47 +22,47 @@
   .nav-link{
     font-size: 10px;
   }
-  .main__title,
-  .section__title{
+  .cards__title,
+  .wrapper__title{
     font-size: 20px;
   }
 }
 @media screen and (max-width: 467px){
-  .section__title{
+  .wrapper__title{
     padding-bottom: 20px;
   }
 }
 @media screen and (max-width: 449px){
-  .main__title{
+  .cards__title{
     padding-bottom: 20px;
   }
 }
 @media screen and (max-width: 434px) {
-  .footer__social{
+  .social{
     padding-bottom: 20px;
   }
-  .main__link,
-  .main__front,
-  .main__text,
-  .main__place,
-  .section__link,
-  .section__sentence,
-  .section__suptext,
-  .section__word,
-  .section__label,
-  .section__button{
+  .cards__link,
+  .card-front,
+  .card__text,
+  .card-place,
+  .wrapper__link,
+  .aside__sentence,
+  .aside__suptext,
+  .content__word,
+  .content__label,
+  .content__button{
     font-size: 12px;
   }
-  .main__price{
+  .card-price{
     font-size: 14px;
   }
-  .section__title{
+  .wrapper__title{
     font-size: 20px;
   }
-  .section__subtext{
+  .aside__subtext{
     font-size: 10px;
   }
-  .section__suptitle{
+  .content__suptitle{
     font-size: 20px;
   }
   .nav-item{
@@ -73,7 +73,7 @@
   }
 }
 @media screen and (max-width: 318px) {
-  .section__title {
+  .wrapper__title{
     font-size: 16px;
   }
 }
