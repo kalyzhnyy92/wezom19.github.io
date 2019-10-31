@@ -24,10 +24,10 @@
 				</div>
 				<div class="col-auto">
 					<ul class="nav-list">
-						<li class="nav-item"><a href="#" class="nav-link">Каталог</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Акции</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">О компании</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+						<li class="nav-list__item"><a href="#" class="nav-list__link">Каталог</a></li>
+						<li class="nav-list__item"><a href="#" class="nav-list__link">Акции</a></li>
+						<li class="nav-list__item"><a href="#" class="nav-list__link">О компании</a></li>
+						<li class="nav-list__item"><a href="#" class="nav-list__link">Контакты</a></li>
 					</ul>
 				</div>
 			</div>
@@ -36,120 +36,136 @@
 
 	<div class="main">
 		<div class="container">
-			<div class="cards row justify-content-sm-between justify-content-center align-items-center">
-				<div class="col-auto">
-					<h1 class="cards__title">Популярные компании</h1>
-				</div>
-				<div class="col-auto">
-					<a href="#" class="cards__link">Все компании</a>
+			<div class="heading">
+				<div class="row justify-content-sm-between justify-content-center align-items-center">
+					<div class="col-auto">
+						<h1 class="title title--size-small">Популярные компании</h1>
+					</div>
+					<div class="col-auto">
+						<a href="#" class="btn btn--link">Все компании</a>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container">
-			<div class="below row justify-content-xl-between justify-content-center">
-				<div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pt-3">
-					<div class="card">
-						<div class="card__wezom" href="#">
-							<div class="card__house">
-								<img class="card__img" src="img/house.jpg" alt="house">
-								<div class="card-front">Front-end</div>
-								<div class="card__icon">
-									<svg class="card__heart" viewBox="0 0 20 20" width="30px" height="30px">
-										<use xlink:href="img/heart.svg#heart"></use>
-									</svg>
+			<div class="below">
+				<div class="row justify-content-xl-between justify-content-center">
+					<div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pb-3">
+						<div class="card">
+							<div class="card__wezom">
+								<div class="card__house">
+									<img class="card__img" src="img/house.jpg" alt="house">
+									<div class="card__label">
+										<div class="card-front">Front-end</div>
+									</div>
+									<div class="buttons">
+										<div class="buttons__icon">
+											<svg class="buttons__heart" viewBox="0 0 20 20" width="30px" height="30px">
+												<use xlink:href="img/heart.svg#heart"></use>
+											</svg>
+										</div>
+									</div>
+									<a href="#" class="card__text" target="blank">IT-Компания Wezom</a>
 								</div>
-								<div class="card__text">IT-Компания Wezom</div>
 							</div>
-						</div>
-						<div class="card__adres">
-							<div class="card-place">г. Херсон, ул. Советская, 12/14</div>
-							<div class="card-metro">
-								<svg class="card__svg" viewBox="0 0 20 20" width="25" height="25">
-							    	<use xlink:href="img/metro.svg#metro"></use>
-							    </svg>
+							<div class="card__adres">
+								<div class="card-place">г. Херсон, ул. Советская, 12/14</div>
+								<div class="card-metro">
+									<svg class="card__svg" viewBox="0 0 20 20" width="25" height="25">
+								    	<use xlink:href="img/metro.svg#metro"></use>
+								    </svg>
+								</div>
+								<div class="card-price">от <b>1 000 000 $</b></div>
+								<div class="card__decision">IT <b>решения</b></div>
 							</div>
-							<div class="card-price d-inline-block">от <b>1 000 000 $</b></div>
-							<div class="card__decision d-inline-block">IT <b>решения</b></div>
 						</div>
 					</div>
-				</div>
-
-				<div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pt-3">
-					<div class="card">
-						<div class="card__wezom" href="#">
-							<div class="card__house">
-								<img class="card__img" src="img/house.jpg" alt="house">
-								<div class="card-front">Front-end</div>
-								<div class="card__icon">
-									<svg class="card__heart" viewBox="0 0 20 20" width="30px" height="30px">
-										<use xlink:href="img/heart.svg#heart"></use>
-									</svg>
+					<div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pb-3">
+						<div class="card">
+							<div class="card__wezom">
+								<div class="card__house">
+									<img class="card__img" src="img/house.jpg" alt="house">
+									<div class="card__label">
+										<div class="card-front">Front-end</div>
+									</div>
+									<div class="buttons">
+										<div class="buttons__icon">
+											<svg class="buttons__heart" viewBox="0 0 20 20" width="30px" height="30px">
+												<use xlink:href="img/heart.svg#heart"></use>
+											</svg>
+										</div>
+									</div>
+									<a href="#" class="card__text" target="blank">IT-Компания Wezom</a>
 								</div>
-								<div class="card__text">IT-Компания Wezom</div>
 							</div>
-						</div>
-						<div class="card__adres">
-							<div class="card-place">г. Херсон, ул. Советская, 12/14</div>
-							<div class="card-metro">
-								<svg class="card__svg" viewBox="0 0 20 20" width="25" height="25">
-							    	<use xlink:href="img/metro.svg#metro"></use>
-							    </svg>
+							<div class="card__adres">
+								<div class="card-place">г. Херсон, ул. Советская, 12/14</div>
+								<div class="card-metro">
+									<svg class="card__svg" viewBox="0 0 20 20" width="25" height="25">
+								    	<use xlink:href="img/metro.svg#metro"></use>
+								    </svg>
+								</div>
+								<div class="card-price">от <b>1 000 000 $</b></div>
+								<div class="card__decision">IT <b>решения</b></div>
 							</div>
-							<div class="card-price d-inline-block">от <b>1 000 000 $</b></div>
-							<div class="card__decision d-inline-block">IT <b>решения</b></div>
 						</div>
 					</div>
-				</div>
-
-				<div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pt-3">
-					<div class="card">
-						<div class="card__wezom" href="#">
-							<div class="card__house">
-								<img class="card__img" src="img/house.jpg" alt="house">
-								<div class="card-front">Front-end</div>
-								<div class="card__icon">
-									<svg class="card__heart" viewBox="0 0 20 20" width="30px" height="30px">
-										<use xlink:href="img/heart.svg#heart"></use>
-									</svg>
+					<div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pb-3">
+						<div class="card">
+							<div class="card__wezom">
+								<div class="card__house">
+									<img class="card__img" src="img/house.jpg" alt="house">
+									<div class="card__label">
+										<div class="card-front">Front-end</div>
+									</div>
+									<div class="buttons">
+										<div class="buttons__icon">
+											<svg class="buttons__heart" viewBox="0 0 20 20" width="30px" height="30px">
+												<use xlink:href="img/heart.svg#heart"></use>
+											</svg>
+										</div>
+									</div>
+									<a href="#" class="card__text" target="blank">IT-Компания Wezom</a>
 								</div>
-								<div class="card__text">IT-Компания Wezom</div>
 							</div>
-						</div>
-						<div class="card__adres">
-							<div class="card-place">г. Херсон, ул. Советская, 12/14</div>
-							<div class="card-price d-inline-block"><b>Цена не известна</b></div>
+							<div class="card__adres">
+								<div class="card-place">г. Херсон, ул. Советская, 12/14</div>
+								<div class="card-price"><b>Цена не известна</b></div>
+							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pt-3">
-					<div class="card">
-						<div class="card__wezom" href="#">
-							<div class="card__house">
-								<img class="card__img" src="img/house.jpg" alt="house">
-								<div class="card-front">Front-end</div>
-								<div class="card__icon">
-									<svg class="card__heart" viewBox="0 0 20 20" width="30px" height="30px">
-										<use xlink:href="img/heart.svg#heart"></use>
-									</svg>
+					<div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pb-3">
+						<div class="card">
+							<div class="card__wezom">
+								<div class="card__house">
+									<img class="card__img" src="img/house.jpg" alt="house">
+									<div class="card__label">
+										<div class="card-front">Front-end</div>
+									</div>
+									<div class="buttons">
+										<div class="buttons__icon">
+											<svg class="buttons__heart" viewBox="0 0 20 20" width="30px" height="30px">
+												<use xlink:href="img/heart.svg#heart"></use>
+											</svg>
+										</div>
+									</div>
+									<a href="#" class="card__text" target="blank">IT-Компания Wezom <br> 2019</a>
 								</div>
-								<div class="card__text">IT-Компания Wezom <br> 2019</div>
 							</div>
-						</div>
-						<div class="card__adres">
-							<div class="card-place">г. Херсон, ул. Советская, 12/14</div>
-							<div class="card-metro">
-								<svg class="card__svg" viewBox="0 0 20 20" width="25" height="25">
-							    	<use xlink:href="img/metro.svg#metro"></use>
-							    </svg>
+							<div class="card__adres">
+								<div class="card-place">г. Херсон, ул. Советская, 12/14</div>
+								<div class="card-metro">
+									<svg class="card__svg" viewBox="0 0 20 20" width="25" height="25">
+								    	<use xlink:href="img/metro.svg#metro"></use>
+								    </svg>
+								</div>
+								<div class="card-price">от <b>1 000 000 $</b></div>
+								<div class="card__decision">IT <b>решения</b></div>
 							</div>
-							<div class="card-price d-inline-block">от <b>1 000 000 $</b></div>
-							<div class="card__decision d-inline-block">IT <b>решения</b></div>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
 
@@ -160,18 +176,18 @@
 					<div class="wrapper">
 						<div class="row justify-content-sm-between justify-content-center align-items-center">
 							<div class="col-auto">
-								<h1 class="wrapper__title">Предложения и акции</h1>
+								<h1 class="title">Предложения и акции</h1>
 							</div>
 							<div class="col-auto">
-								<a href="#" class="wrapper__link">Все акции</a>
+								<a href="#" class="btn btn--link">Все акции</a>
 							</div>
 						</div>
 						<div class="row justify-content-center pt-5">
-							<div class="col-auto col-sm-9 col-md-6 pb-4" href="#">
+							<div class="col-auto col-sm-9 col-md-6 pb-4">
 								<div class="aside">
 									<div class="aside__photo">
 										<img class="aside__picture" src="img/picture.jpg" alt="picture">
-										<div class="aside__sentence">Предложение</div>
+										<a href="#" class="aside__sentence" target="blank">Предложение</a>
 									</div>
 									<div class="aside__text">
 										<div class="aside__suptext">Лучшее предложение для наших клиентов!</div>
@@ -179,11 +195,11 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-auto col-sm-9 col-md-6 pb-4" href="#">
+							<div class="col-auto col-sm-9 col-md-6 pb-4">
 								<div class="aside">
 									<div class="aside__photo">
 										<img class="aside__kvartira" src="img/kvartira.jpg" alt="kvartira">
-										<div class="aside__sentence">Акция</div>
+										<a href="#" class="aside__sentence" target="blank">Акция</a>
 									</div>
 									<div class="aside__text">
 										<div class="aside__suptext">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона</div>
@@ -194,18 +210,16 @@
 						</div> 
 					</div>
 				</div>
-				<div class="content col-auto col-xl-3 col-sm-12">
+
+				<div class="conten col-auto col-xl-3 col-sm-12">
 					<div class="content__subscription">
 						<div class="content__email">
 							<h1 class="content__suptitle">Подпишитесь на рассылку</h1>
 							<div class="content__word">Будьте всегда в курсе последних <br> новостей и акций!</div>
-
 							<form class="content__form">
 								<label class="content__label">Введите ваш email*</label>
 				  				<input class="content__mail" type="email" name="email" placeholder="yourmail@gmail.com" required>
-				  				<button class="content__button">
-									<a class="content__subscribe" href="#">Подписаться</a>
-								</button>
+				  				<button class="content__button">Подписаться</button>
 				  			</form>
 						</div>
 					</div>
@@ -216,44 +230,46 @@
 
 	<div class="footer">
 		<div class="container">
-			<div class="preview row justify-content-xl-between justify-content-center align-items-center">
-				<div class="col-auto">
-					<div class="social">
-						<h2 class="social__title">Мы в соц. сетях</h2>
-						<div class="social__icon justify-content-between align-items-center">
-							<a class="social__facebook" href="https://www.facebook.com" target="blank">
-								<svg class="social__icon--facebook" viewBox="0 0 17 26" width="17" height="26">
-        							<use xlink:href="img/facebook.svg#facebook"></use>
-    							</svg>
-							</a>
-							<a class="social__twitter" href="https://twitter.com" target="blank">
-								<svg class="social__icon--twitter" viewBox="0 0 22 19" width="22" height="19">
-        							<use xlink:href="img/twitter.svg#twitter"></use>
-    							</svg>
-							</a>
-							<a class="social__youtube" href="https://www.youtube.com" target="blank">
-								<svg class="social__icon--youtube" viewBox="0 0 25 19" width="25" height="19">
-        							<use xlink:href="img/youtube.svg#youtube"></use>
-    							</svg>
-							</a>
-							<a class="social__instagram" href="https://www.instagram.com" target="blank">
-								<svg class="social__icon--instagram" viewBox="0 0 22 22" width="20" height="20">
-        							<use xlink:href="img/instagram.svg#instagram"></use>
-    							</svg>
-							</a>
+			<div class="preview">
+				<div class="row justify-content-xl-between justify-content-center align-items-center">
+					<div class="col-auto">
+						<div class="social">
+							<h2 class="social__title">Мы в соц. сетях</h2>
+							<div class="social__icon justify-content-between align-items-center">
+								<a class="social__facebook" href="https://www.facebook.com" target="blank">
+									<svg class="social__icon--facebook" viewBox="0 0 17 26" width="17" height="26">
+	        							<use xlink:href="img/facebook.svg#facebook"></use>
+	    							</svg>
+								</a>
+								<a class="social__twitter" href="https://twitter.com" target="blank">
+									<svg class="social__icon--twitter" viewBox="0 0 22 19" width="22" height="19">
+	        							<use xlink:href="img/twitter.svg#twitter"></use>
+	    							</svg>
+								</a>
+								<a class="social__youtube" href="https://www.youtube.com" target="blank">
+									<svg class="social__icon--youtube" viewBox="0 0 25 19" width="25" height="19">
+	        							<use xlink:href="img/youtube.svg#youtube"></use>
+	    							</svg>
+								</a>
+								<a class="social__instagram" href="https://www.instagram.com" target="blank">
+									<svg class="social__icon--instagram" viewBox="0 0 22 22" width="20" height="20">
+	        							<use xlink:href="img/instagram.svg#instagram"></use>
+	    							</svg>
+								</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="developer">
-						<div class="developer__wezom d-inline-block">
-							<a href="https://wezom.com.ua/" class="developer__link" target="blank">
-								<img src="img/wezom.png" alt="wezom">
-							</a>
-						</div>
-						<div class="developer__suptext d-inline-block">
-							<div class="developer__text">Pазработка сайта</div>
-							<div class="developer__service">Wezom</div>
+					<div class="col-auto">
+						<div class="developer">
+							<div class="developer__wezom d-inline-block">
+								<a href="https://wezom.com.ua/" class="developer__link" target="blank">
+									<img src="img/wezom.png" alt="wezom">
+								</a>
+							</div>
+							<div class="developer__suptext d-inline-block">
+								<div class="developer__text">Pазработка сайта</div>
+								<div class="developer__service">Wezom</div>
+							</div>
 						</div>
 					</div>
 				</div>
