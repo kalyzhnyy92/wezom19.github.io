@@ -277,7 +277,7 @@ body {
 .content__subscription{
   max-width: 394px;
   height: 597px;
-  background: #f1f1f1;
+  /* background: #f1f1f1; */
   margin: 0 auto;
 }
 .content__email{
