@@ -17,6 +17,10 @@
   .title{
     font-size: 28px;
   }
+  .wrapper{
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 568px) {
   .nav-list__link{
