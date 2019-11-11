@@ -392,6 +392,7 @@ body {
   display: inline-table;
 }
 .developer__wezom{
+  display: inline-block;
   margin-right: 10px;
 }
 .developer__wezom:hover{
@@ -399,6 +400,7 @@ body {
   transition: box-shadow linear 0.3s;
 }
 .developer__suptext{
+  display: inline-block;
   vertical-align: middle;
 }
 .developer__text{
